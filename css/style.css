@@ -156,6 +156,7 @@ body {
 .content {
     width: 1388px;
     position: relative;
+    clear: both;
 }
 
 .menu-cont {}
@@ -166,6 +167,19 @@ body {
     border-bottom: 1px solid #6c6c6c;
     padding-bottom: 3px;
     position: absolute;
+}
+
+.menu-cont-list2 {
+    float: left;
+    margin-left: 90px;
+    padding-bottom: 3px;
+    position: absolute;
+}
+
+.menu-product2 {
+    list-style-type: none;
+    margin-top: 50px;
+    
 }
 
 .menunewfcontent {
@@ -308,6 +322,11 @@ body {
     color: #6c6c6c;
     width: 450px;
     padding-bottom: 20px
+}
+
+.tovary2 {
+    width: 1388px;
+    text-align: center;
 }
 
 .promo-text .promo-content.promo-text .button {}
