@@ -16,7 +16,7 @@ body {
 }
 
 .container {
-    width: 1388px;
+    width: 1366px;
     margin: 0 auto;
 }
 
@@ -62,6 +62,10 @@ body {
     font-weight: 700;
     color: #212121;
     border-bottom: 3px solid #212121;
+}
+
+.menu-link:hover {
+    color: #212121;
 }
 
 .slider-text {
@@ -116,6 +120,11 @@ body {
     clear: both;
 }
 
+.button:hover {
+    background-color: #212121;
+    color: white;
+}
+
 .pagination {
     position: absolute;
     width: 1183px;
@@ -139,5 +148,9 @@ body {
     height: 40px;
     background-color: #212121;
     clear: both;
+    margin-bottom: 0;
 }
 
+.circle:hover {
+    background-color: #212121;
+}
