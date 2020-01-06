@@ -154,28 +154,27 @@ body {
 }
 
 .content {
-    width: 1366px;
+    width: 1388px;
+    position: relative;
 }
 
-.content .menu-cont {}
+.menu-cont {}
 
-.content .menu-cont-list {
+.menu-cont-list {
     float: left;
-    margin-left: 98px;
+    margin-left: 90px;
     border-bottom: 1px solid #6c6c6c;
-    padding-bottom: 3px
+    padding-bottom: 3px;
+    position: absolute;
 }
 
-.content .menunewfcontent {
+.menunewfcontent {
     list-style-type: none;
     display: inline-block;
     margin-top: 120px;
-    
-    
-    
 }
 
-.content .menu-link-fea {
+.menu-link-fea {
     font-size: 36px;
     font-weight: bold;
     text-align: left;
@@ -183,7 +182,7 @@ body {
     text-decoration: none;
 }
 
-.content .menu-link-new {
+.menu-link-new {
     font-size: 36px;
     font-weight: bold;
     text-align: left;
@@ -192,7 +191,7 @@ body {
     padding-left: 25px;
 }
 
-.content .explore-all {
+.explore-all {
     font-size: 18px;
     font-weight: bold;
     line-height: 24px;
@@ -201,8 +200,59 @@ body {
     color: #212121;
     float: right;
     text-decoration: none;
-    margin-top: 137px;
-    margin-right: 98px;
+    margin-top: 138px;
+    margin-right: 119px;
     text-transform: uppercase;
-    
+}
+
+.menunewfcontent a:hover {
+    color: #212121
+}
+
+.menunewfcontent .menu-link-active:hover {
+    color: #6c6c6c;
+}
+
+.explore-all:hover {
+    color: #6c6c6c;
+}
+
+.product {
+    width: 1388px;
+    position: relative;
+}
+
+.tovary {
+    position: absolute;
+    width: 1388px;
+    text-align: center;
+    clear: both;
+}
+
+.menu-product {
+    list-style-type: none;
+    margin-top: 50px;
+}
+
+.tovar {
+    display: inline-block;
+    margin-right: 30px
+}
+
+.cart {
+    position: absolute;
+    z-index: 4
+}
+
+.img-hover {
+    z-index: 3;
+    position: relative;
+    top: 0px;
+    right: 0px;
+    display: inline-block;
+}
+
+.link-tovar img:hover {
+    z-index: 0;
+    transition-duration: .2s
 }
