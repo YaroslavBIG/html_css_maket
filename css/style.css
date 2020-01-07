@@ -273,6 +273,8 @@ body {
 }
 
 .promo {
+    
+    margin-right: 98px;
     display: inline-block;
     margin-top: 450px
 }
@@ -281,14 +283,14 @@ body {
     width: 683px;
     height: 683px;
     float: left;
-    background-image: url(/img/promo-img1.jpg)
+    background-image: url(../img/promo-img1.jpg)
 }
 
 .promo .promo-right {
     width: 683px;
     height: 683px;
     float: left;
-    background-image: url(/img/promo-img.jpg)
+    background-image: url(../img/promo-img.jpg)
 }
 
 .promo-text {
@@ -358,8 +360,8 @@ body {
 }
 
 .slider3 {
-    height: 450px;
-    width: 450px;
+    height: 400px;
+    width: 400px;
     background-image: url(../img/product-1-lg.jpg);
     margin-top: 125px;
     float: left;
@@ -391,8 +393,8 @@ body {
     display: inline-block;
     float: left;
     position: absolute;
-    margin-left: 600px;
-    margin-top: -400px;
+    margin-left: 580px;
+    margin-top: -430px;
 }
 
 .promo-product2-left {
@@ -459,6 +461,7 @@ body {
     height: 576px;
     display: inline-block;
     position: relative;
+    margin-left: 98px
 }
 
 .slider-text4 {
@@ -548,4 +551,8 @@ body {
 
 .link {
     text-decoration: none;
+}
+
+.soc {
+    height: 100%;
 }
