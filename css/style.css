@@ -179,7 +179,6 @@ body {
 .menu-product2 {
     list-style-type: none;
     margin-top: 50px;
-    
 }
 
 .menunewfcontent {
@@ -293,6 +292,7 @@ body {
 
 .promo-text {
     margin-top: 228px;
+    padding-left: 30px
 }
 
 .promo-text .promo-exclusive {
@@ -320,7 +320,7 @@ body {
     line-height: 24px;
     text-align: left;
     color: #6c6c6c;
-    width: 450px;
+    width: 400px;
     padding-bottom: 20px
 }
 
@@ -329,4 +329,126 @@ body {
     text-align: center;
 }
 
-.promo-text .promo-content.promo-text .button {}
+.slider2 {
+    height: 700px;
+    background-image: url(../img/slider2.jpg);
+    position: relative;
+    margin-top: 125px
+}
+
+.slider-text2 {
+    margin-top: 150px;
+}
+
+.padding-site2 {
+    padding-top: 120px;
+    padding-left: 98px;
+    padding-right: 98px;
+}
+
+.slider-hotdeal {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 48px;
+    letter-spacing: 1.8px;
+    text-align: left;
+    color: #e53935;
+    text-transform: uppercase;
+}
+
+.slider3 {
+    height: 450px;
+    width: 450px;
+    background-image: url(../img/product-1-lg.jpg);
+    margin-top: 125px;
+    float: left;
+}
+
+.slider-text3 {
+    margin-top: 10px;
+}
+
+.padding-site3 {
+    padding-top: 120px;
+    padding-left: 98px;
+    padding-right: 98px;
+}
+
+.slider-hotdeal {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 48px;
+    letter-spacing: 1.8px;
+    text-align: left;
+    color: #e53935;
+    text-transform: uppercase;
+}
+
+.product3 {
+    width: 576px;
+    height: 576px;
+    display: inline-block;
+    float: left;
+}
+
+.promo-product2-left {
+    float: left;
+    display: inline-block;
+}
+
+.promo-product2-right {
+    float: left;
+    display: inline-block;
+}
+
+.slider3a {
+    width: 1388px;
+}
+
+.menu-product3 {
+    list-style-type: none;
+    margin-top: 50px;
+    display: inline-block;
+    float: left;
+}
+
+.slider-exclusive {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 48px;
+    letter-spacing: 1.8px;
+    text-align: left;
+    color: #1e88e5;
+    text-transform: uppercase;
+}
+
+.s3 {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: left;
+    color: #212121;
+}
+
+.s3c {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 24px;
+    text-align: left;
+    color: #6c6c6c;
+    width: 330px;
+}
+
+.tabl3l {
+    width: 250px;
+    height: 250px;
+    display: inline-block
+    
+}
+
+.tabl3r {
+    width: 250px;
+    height: 250px;
+    display: inline-block
+}
+
