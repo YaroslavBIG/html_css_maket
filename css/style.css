@@ -430,7 +430,6 @@ body {
 }
 
 .s3c {
-    font-family: Montserrat;
     font-size: 14px;
     font-weight: 200;
     line-height: 24px;
@@ -452,3 +451,9 @@ body {
     display: inline-block
 }
 
+.sl3 {
+    width: 1366px;
+    height: 576px;
+    display: inline-block;
+    position: relative;
+}
