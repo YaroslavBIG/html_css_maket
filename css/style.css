@@ -522,3 +522,30 @@ body {
     clear: both;
 }
 
+.footer {
+   width: 1366px;
+    position: relative;
+    display: inline-block;
+}
+
+.copyr {
+    float: left;
+    position: absolute;
+}
+
+.socialimg {
+    width: 1366px;
+    float: left;
+    text-align: center;
+}
+
+.terms {
+    width: 1366px;
+    float: left;
+    position: absolute;
+    text-align: right;
+}
+
+.link {
+    text-decoration: none;
+}
