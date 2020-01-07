@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,400,700&display=swap&subset=cyrillic');
+
 * {
     margin: 0;
     padding: 0;
@@ -389,6 +390,9 @@ body {
     height: 576px;
     display: inline-block;
     float: left;
+    position: absolute;
+    margin-left: 600px;
+    margin-top: -400px;
 }
 
 .promo-product2-left {
@@ -442,7 +446,6 @@ body {
     width: 250px;
     height: 250px;
     display: inline-block
-    
 }
 
 .tabl3r {
@@ -457,3 +460,65 @@ body {
     display: inline-block;
     position: relative;
 }
+
+.slider-text4 {
+    background-image: url(../img/back-img.jpg);
+    width: 1366px;
+    height: 450px;
+    margin-top: 200px;
+    position: relative;
+    
+    
+}
+
+.mobile-app {
+    padding-top: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.67;
+    letter-spacing: 1.8px;
+    text-align: left;
+    color: rgb(108, 108, 108);
+    text-transform: uppercase;
+    margin-bottom: 5px;
+
+
+}
+
+.slider-h2-4 {
+    font-size: 62px;
+    font-weight: 100;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.16;
+    letter-spacing: normal;
+    text-align: left;
+    color: rgb(33, 33, 33);
+    text-transform: uppercase;
+    width: 600px;
+    margin-bottom: 20px;
+    
+}
+
+.slider-content-4 {
+    font-size: 22px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.09;
+    letter-spacing: normal;
+    text-align: left;
+    color: rgb(108, 108, 108);
+    margin-bottom: 33px;
+
+}
+
+.buttonapp {
+    border-image: url(../img/app-store.png);
+    display: inline-block;
+    text-decoration: none;
+    clear: both;
+}
+
