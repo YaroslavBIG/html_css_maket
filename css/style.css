@@ -434,11 +434,12 @@ body {
 .menu-product3 {
     list-style-type: none;
     display: inline-block;
-   
+
 }
 
 .menu-product3-1 {
-    
+    list-style-type: none;
+
 }
 
 .link-tovar2 {}
