@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,400,700&display=swap&subset=cyrillic');
+
 * {
     margin: 0;
     padding: 0;
@@ -255,7 +256,12 @@ body {
 
 .tovar {
     display: inline-block;
-    margin-right: 30px
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.tovar2 {
+    margin-bottom: 30px;
 }
 
 .cart {
@@ -364,17 +370,20 @@ body {
 }
 
 .sl3 {
-    width: 1140px;
+    width: 100%;
     height: 570px;
-    display: inline-block;
-    padding-left: 7%;
+    margin-top: 120px;
+    padding-left: 98px;
 }
+
+
 
 .slider3 {
     background-image: url(../img/product-1-lg.jpg);
-    width: 50%;
+    width: 41%;
     height: 100%;
-    margin-top: 120px;
+    float: left;
+    margin-right: 5%;
 
 }
 
@@ -401,13 +410,11 @@ body {
 }
 
 .product3 {
-    width: 576px;
-    height: 576px;
+    width: 50%;
+    height: 100%;
     display: inline-block;
     float: left;
-    position: absolute;
-    margin-left: 580px;
-    margin-top: -430px;
+
 }
 
 .promo-product2-left {
@@ -424,24 +431,17 @@ body {
     width: 1388px;
 }
 
-.tabl3l {
-    
-}
-
 .menu-product3 {
     list-style-type: none;
-    margin-top: 50px;
     display: inline-block;
-    float: left;
+   
 }
 
-.tovar2 {
+.menu-product3-1 {
     
 }
 
-.link-tovar2 {
-    
-}
+.link-tovar2 {}
 
 .slider-exclusive {
     font-size: 18px;
@@ -472,7 +472,8 @@ body {
 .tabl3l {
     width: 250px;
     height: 250px;
-    display: inline-block
+    display: inline-block;
+    margin-right: 50px;
 }
 
 .tabl3r {
