@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,400,700&display=swap&subset=cyrillic');
-
 * {
     margin: 0;
     padding: 0;
@@ -7,6 +6,11 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+}
+
+html,
+body {
+    height: 100%;
 }
 
 .clearfix:after {
@@ -18,6 +22,7 @@ body {
 .container {
     width: 1366px;
     margin: 0 auto;
+    min-height: 100%;
 }
 
 .padding-site {
@@ -273,7 +278,6 @@ body {
 }
 
 .promo {
-    
     margin-right: 98px;
     display: inline-block;
     margin-top: 450px
@@ -359,16 +363,25 @@ body {
     text-transform: uppercase;
 }
 
+.sl3 {
+    width: 1140px;
+    height: 570px;
+    display: inline-block;
+    padding-left: 7%;
+}
+
 .slider3 {
-    height: 400px;
-    width: 400px;
     background-image: url(../img/product-1-lg.jpg);
-    margin-top: 125px;
-    float: left;
+    width: 50%;
+    height: 100%;
+    margin-top: 120px;
+
 }
 
 .slider-text3 {
     margin-top: 10px;
+    padding-top: 30%;
+    padding-left: 15%;
 }
 
 .padding-site3 {
@@ -411,11 +424,23 @@ body {
     width: 1388px;
 }
 
+.tabl3l {
+    
+}
+
 .menu-product3 {
     list-style-type: none;
     margin-top: 50px;
     display: inline-block;
     float: left;
+}
+
+.tovar2 {
+    
+}
+
+.link-tovar2 {
+    
 }
 
 .slider-exclusive {
@@ -456,22 +481,12 @@ body {
     display: inline-block
 }
 
-.sl3 {
-    width: 1366px;
-    height: 576px;
-    display: inline-block;
-    position: relative;
-    margin-left: 98px
-}
 
 .slider-text4 {
     background-image: url(../img/back-img.jpg);
-    width: 1366px;
     height: 450px;
     margin-top: 200px;
     position: relative;
-    
-    
 }
 
 .mobile-app {
@@ -486,8 +501,6 @@ body {
     color: rgb(108, 108, 108);
     text-transform: uppercase;
     margin-bottom: 5px;
-
-
 }
 
 .slider-h2-4 {
@@ -502,7 +515,6 @@ body {
     text-transform: uppercase;
     width: 600px;
     margin-bottom: 20px;
-    
 }
 
 .slider-content-4 {
@@ -515,7 +527,6 @@ body {
     text-align: left;
     color: rgb(108, 108, 108);
     margin-bottom: 33px;
-
 }
 
 .buttonapp {
@@ -525,8 +536,8 @@ body {
     clear: both;
 }
 
-.footer {
-   width: 1366px;
+.footerblock {
+    margin-top: 120px;
     position: relative;
     display: inline-block;
 }
