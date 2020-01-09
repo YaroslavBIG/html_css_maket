@@ -765,3 +765,10 @@ button:before {
     color: white;
 }
 
+/*CONTACT.html*/
+
+.hero-back {
+  width: 100%;
+  height: 360px;
+  background-color: rgb(245, 245, 245);
+}
