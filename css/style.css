@@ -1,9 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,400,700&display=swap&subset=cyrillic');
-
 * {
     margin: 0;
     padding: 0;
-    
 }
 
 body {
@@ -72,6 +70,11 @@ body {
 
 .menu-link:hover {
     color: #212121;
+    border-bottom: 3px solid #212121;
+}
+
+.menu-link:active {
+    color: white;
 }
 
 .slider-text {
@@ -127,6 +130,12 @@ body {
 }
 
 .button:hover {
+    box-shadow: none;
+    
+}
+
+.button:active {
+   
     background-color: #212121;
     color: white;
 }
@@ -149,6 +158,7 @@ body {
     margin: 5px
 }
 
+
 .circle-active {
     width: 40px;
     height: 40px;
@@ -160,6 +170,11 @@ body {
 .circle:hover {
     background-color: #212121;
 }
+
+.circle:active {
+    background-color: white;
+}
+
 
 .content {
     width: 1388px;
@@ -377,15 +392,12 @@ body {
     padding-left: 98px;
 }
 
-
-
 .slider3 {
     background-image: url(../img/product-1-lg.jpg);
     width: 41%;
     height: 100%;
     float: left;
     margin-right: 5%;
-
 }
 
 .slider-text3 {
@@ -415,7 +427,6 @@ body {
     height: 100%;
     display: inline-block;
     float: left;
-
 }
 
 .promo-product2-left {
@@ -435,12 +446,10 @@ body {
 .menu-product3 {
     list-style-type: none;
     display: inline-block;
-
 }
 
 .menu-product3-1 {
     list-style-type: none;
-
 }
 
 .link-tovar2 {}
@@ -483,7 +492,6 @@ body {
     height: 250px;
     display: inline-block
 }
-
 
 .slider-text4 {
     background-image: url(../img/back-img.jpg);
@@ -565,7 +573,14 @@ body {
 
 .link {
     text-decoration: none;
+    color: black;
 }
+
+.link:hover {
+    color: dimgray;
+}
+
+
 
 .soc {
     height: 100%;
@@ -584,7 +599,6 @@ body {
     letter-spacing: 1.8px;
     text-align: left;
     color: rgb(108, 108, 108);
-
 }
 
 .footermenu .left-col {
@@ -609,9 +623,6 @@ body {
     margin-bottom: 25px;
 }
 
-
-}
-
 .footer-p-left2 {
     font-size: 14px;
     font-weight: 300;
@@ -623,13 +634,10 @@ body {
     color: rgb(33, 33, 33);
 }
 
-
 .footermenu .center-col {
     width: 27%;
-
     display: inline-block;
     padding-left: 5%;
-
 }
 
 .footermenu .center-col p:first-child {
@@ -646,6 +654,12 @@ body {
     letter-spacing: 0.7px;
     text-align: left;
     color: rgb(33, 33, 33);
+    text-decoration: none;
+}
+
+.center-menu1:hover,
+.center-menu2:hover {
+    color: dimgrey;
 }
 
 .footermenu .center-menu1 {
@@ -669,7 +683,6 @@ body {
     width: 35%;
     float: right;
     display: inline-block;
-
 }
 
 .footermenu .right-col p:first-child {
@@ -693,47 +706,48 @@ body {
     height: 48px;
     border: solid 1px rgb(217, 222, 225);
     background-color: rgb(255, 255, 255);
-
 }
 
-form {
-  position: relative;
-  width: 300px;
-  margin: 0 auto;
+.suscribe form {
+    position: relative;
+    width: 300px;
+    margin: 0 auto;
 }
-input, button {
-  border: none;
-  outline: none;
-  border-radius: 3px;
-}
-input {
-  width: 100%;
-  height: 42px;
-  background: #F9F0DA;
-  padding-left: 15px;
-}
+
+input,
 button {
-  height: 26px;
-  width: 26px;
-  position: absolute;
-  top: 8px;
-  right: 8px;
-  background: #F15B42;
-  cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 3px;
 }
+
+input {
+    width: 100%;
+    height: 42px;
+    background: #F9F0DA;
+    padding-left: 15px;
+}
+
+button {
+    height: 26px;
+    width: 26px;
+    position: absolute;
+    top: 37px;
+    right: -72px;
+    background: white;
+    cursor: pointer;
+}
+
 button:before {
-  content: url"../img/mail.png"
-  color: #F9F0DA;
-  font-size: 20px;
-  font-weight: bold;
+    content: url(../img/mail.png);
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .footer {
     margin-top: 59px;
     clear: both;
 }
-
-
 
 .footermenu .copyr {}
 
@@ -746,3 +760,8 @@ button:before {
 .footermenu .terms {}
 
 .footermenu .link {}
+
+.link-active:active {
+    color: white;
+}
+
