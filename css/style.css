@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,400,700&display=swap&subset=cyrillic');
-
 * {
     margin: 0;
     padding: 0;
+    text-decoration: none;
 }
 
 body {
@@ -738,7 +738,7 @@ button {
     height: 26px;
     width: 26px;
     position: absolute;
-    top: 37px;
+    top: 40px;
     right: -72px;
     background: white;
     cursor: pointer;
@@ -863,3 +863,58 @@ button:before {
     text-align: center;
 }
 
+
+/*Products*/
+
+.hero-back-products {
+    height: 360px;
+    background-color: rgb(245, 245, 245);
+    box-sizing: border-box;
+}
+
+.content-catalog {
+        margin: 30px 98px;
+}
+
+.center-col-products {
+    width: 41%;
+    display: inline-block;
+    padding-left: 5%;
+    text-decoration: none;
+}
+
+.button-products {
+    height: 26px;
+    width: 26px;
+    position: absolute;
+    top: 39px;
+    right: -58px;
+    background: white;
+    cursor: pointer;
+}
+
+.button-products:before {
+    content: url(../img/mail.png);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.h-footer-menu-products {
+    margin-bottom: 25px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: 1.8px;
+    text-align: left;
+    color: rgb(108, 108, 108);
+    
+}
+
+.h-footer-menu-products p {
+    text-transform: uppercase;
+}
+
+.row.align-items-center.justify-content-center {
+    margin-bottom: 30px;
+}
