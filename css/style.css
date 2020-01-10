@@ -23,6 +23,7 @@ body {
     width: 1366px;
     margin: 0 auto;
     min-height: 100%;
+    position: relative;
 }
 
 .padding-site {
@@ -131,11 +132,9 @@ body {
 
 .button:hover {
     box-shadow: none;
-    
 }
 
 .button:active {
-   
     background-color: #212121;
     color: white;
 }
@@ -158,7 +157,6 @@ body {
     margin: 5px
 }
 
-
 .circle-active {
     width: 40px;
     height: 40px;
@@ -175,14 +173,13 @@ body {
     background-color: white;
 }
 
-
 .content {
     width: 1388px;
-    position: relative;
-    clear: both;
 }
 
-.menu-cont {}
+.menu-cont {
+    clear: both;
+}
 
 .menu-cont-list {
     float: left;
@@ -216,6 +213,12 @@ body {
     text-align: left;
     color: #212121;
     text-decoration: none;
+}
+
+a.menu-link-fea.menu-link-active:active,
+a.menu-link-fea.link-active:active,
+a.menu-link-new.link-active:active {
+    color: white;
 }
 
 .menu-link-new {
@@ -549,45 +552,47 @@ body {
 
 .footerblock {
     margin-top: 120px;
-    position: relative;
     padding-left: 98px;
+    height: 220px;
+    width: 100%;
+    background-color: #f7f7f7;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    box-sizing: border-box;
 }
 
-.copyr {
-    float: left;
-    position: absolute;
-}
+.copyr {}
 
 .socialimg {
-    width: 100%;
-    float: left;
-    text-align: center;
+    margin: -14px 25px;
+    padding-left: 45%;
 }
 
 .terms {
-    width: 92%;
-    float: left;
-    position: absolute;
+    width: 100%;
+    float: right;
+    margin-top: -2%;
     text-align: right;
 }
 
 .link {
     text-decoration: none;
     color: black;
+    clear: both
 }
 
 .link:hover {
     color: dimgray;
 }
 
-
-
 .soc {
     height: 100%;
 }
 
 .footermenu {
-    width: 100%;
+    width: 91%;
+    height: 292px;
 }
 
 .h-footer-menu {
@@ -635,7 +640,7 @@ body {
 }
 
 .footermenu .center-col {
-    width: 27%;
+    width: 39%;
     display: inline-block;
     padding-left: 5%;
 }
@@ -765,10 +770,31 @@ button:before {
     color: white;
 }
 
+.clr {
+    width: 100%;
+    height: 291px
+}
+
+
 /*CONTACT.html*/
 
 .hero-back {
-  width: 100%;
-  height: 360px;
-  background-color: rgb(245, 245, 245);
+    width: 1366px;
+    height: 360px;
+    background-color: rgb(245, 245, 245);
+    box-sizing: border-box;
+}
+
+.title {
+    font-family: Montserrat;
+    font-size: 62px;
+    font-weight: 100;
+    line-height: 72px;
+    text-align: left;
+    color: #212121;
+    margin-top: 10%;
+}
+
+.contact-content {
+    min-height: 100%
 }
