@@ -22,6 +22,7 @@ body {
 
 .container {
     width: 1366px;
+    min-width: 1366px;
     margin: 0 auto;
     min-height: 100%;
     position: relative;
@@ -873,8 +874,8 @@ button:before {
 }
 
 .content-catalog {
-        margin: 30px 98px;
-        margin-left: 3%;
+    margin: 30px 98px;
+    margin-left: 3%;
 }
 
 .center-col-products {
@@ -909,7 +910,6 @@ button:before {
     letter-spacing: 1.8px;
     text-align: left;
     color: rgb(108, 108, 108);
-    
 }
 
 .h-footer-menu-products p {
@@ -918,4 +918,24 @@ button:before {
 
 .row.align-items-center.justify-content-center {
     margin-bottom: 30px;
+}
+
+.promo2 {
+    display: inline-block;
+}
+
+.promo2 .promo-left2 {
+    width: 650px;
+    height: 650px;
+    float: left;
+    background-image: url(../img/promo-img1.jpg);
+    background-position: right;
+}
+
+.promo2 .promo-right2 {
+    width: 650px;
+    height: 650px;
+    float: left;
+    background-image: url(../img/promo-img.jpg);
+    background-position: right;
 }
