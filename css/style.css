@@ -809,7 +809,6 @@ button:before {
 }
 
 .cont1,
-.cont2,
 .cont3 {
     width: 370px;
     height: 370px;
@@ -819,6 +818,18 @@ button:before {
     float: left;
     margin-right: 15px;
     padding-top: 7%;
+    box-sizing: border-box;
+}
+
+.cont2 {
+    width: 370px;
+    height: 370px;
+    opacity: 0.9;
+    border: solid 1px #9c9c9c;
+    background-color: #ffffff;
+    float: left;
+    margin-right: 15px;
+    
     box-sizing: border-box;
 }
 
