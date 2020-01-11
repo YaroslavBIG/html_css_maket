@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,400,700&display=swap&subset=cyrillic');
+
 * {
     margin: 0;
     padding: 0;
@@ -557,18 +558,35 @@ a.menu-link-new.link-active:active {
     padding-left: 98px;
     height: 220px;
     width: 100%;
-    background-color: #f7f7f7;
     position: absolute;
     bottom: 0;
     left: 0;
     box-sizing: border-box;
 }
 
-.copyr {}
+.footermenu {
+    background-color: #f7f7f7;
+    
+}
+
+.copyr {
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.17;
+    letter-spacing: 0.6px;
+    text-align: left;
+    color: rgb(108, 108, 108);
+    text-transform: uppercase;
+}
+
 
 .socialimg {
-    margin: -14px 25px;
-    padding-left: 45%;
+   position: absolute;
+    left: 546px;
+    top: -1px;
 }
 
 .terms {
@@ -576,7 +594,17 @@ a.menu-link-new.link-active:active {
     float: right;
     margin-top: -2%;
     text-align: right;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.17;
+    letter-spacing: 0.6px;
+    color: rgb(108, 108, 108);
+    text-transform: uppercase;
 }
+
 
 .link {
     text-decoration: none;
@@ -595,6 +623,7 @@ a.menu-link-new.link-active:active {
 .footermenu {
     width: 91%;
     height: 292px;
+    
 }
 
 .h-footer-menu {
@@ -662,6 +691,7 @@ a.menu-link-new.link-active:active {
     text-align: left;
     color: rgb(33, 33, 33);
     text-decoration: none;
+    text-transform: uppercase;
 }
 
 .center-menu1:hover,
@@ -752,8 +782,8 @@ button:before {
 }
 
 .footer {
-    margin-top: 59px;
-    clear: both;
+    margin-top: 110px;
+    position: relative;
 }
 
 .footermenu .copyr {}
@@ -829,7 +859,7 @@ button:before {
     background-color: #ffffff;
     float: left;
     margin-right: 15px;
-    
+
     box-sizing: border-box;
 }
 
