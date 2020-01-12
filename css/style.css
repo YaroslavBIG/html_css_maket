@@ -15,6 +15,14 @@ body {
     height: 100%;
 }
 
+a:hover {
+    text-decoration: none;
+}
+
+ul {
+    margin-bottom: 0;
+}
+
 .clearfix:after {
     content: "";
     display: table;
@@ -266,7 +274,7 @@ a.menu-link-new.link-active:active {
 }
 
 .tovary {
-   /* position: absolute;
+    /* position: absolute;
     width: 1388px;
     clear: both;*/
     text-align: center;
@@ -307,10 +315,8 @@ a.menu-link-new.link-active:active {
 }
 
 .promo {
-    
-    /*margin-right: 98px;*/
     display: inline-block;
-    margin-top: 450px
+    margin-top: 120px
 }
 
 .promo .promo-left {
@@ -504,7 +510,6 @@ a.menu-link-new.link-active:active {
     background-image: url(../img/back-img.jpg);
     height: 400px;
     margin-top: 200px;
-    margin-bottom: -77px;
     position: relative;
 }
 
@@ -557,7 +562,6 @@ a.menu-link-new.link-active:active {
 
 .footerblock {
     margin-top: 120px;
-    height: 220px;
     width: 100%;
     position: absolute;
     bottom: 0;
@@ -674,7 +678,7 @@ a.menu-link-new.link-active:active {
 .footermenu .center-col {
     width: 39%;
     display: inline-block;
-    padding-left: 5%;
+    padding-left: 4%;
 }
 
 .footermenu .center-col p:first-child {
@@ -718,7 +722,7 @@ a.menu-link-new.link-active:active {
 }
 
 .footermenu .right-col {
-    width: 35%;
+    width: 31%;
     float: right;
     display: inline-block;
 }
@@ -740,7 +744,7 @@ a.menu-link-new.link-active:active {
 
 .suscribe input {
     margin-top: 26px;
-    width: 370px;
+    width: 346px;
     height: 48px;
     border: solid 1px rgb(217, 222, 225);
     background-color: rgb(255, 255, 255);
@@ -771,7 +775,7 @@ button {
     width: 26px;
     position: absolute;
     top: 40px;
-    right: -72px;
+    right: -50px;
     background: white;
     cursor: pointer;
 }
@@ -959,6 +963,7 @@ button:before {
 
 .row.align-items-center.justify-content-center {
     margin-bottom: 30px;
+    display: flex;
 }
 
 .promo2 {
@@ -981,4 +986,53 @@ button:before {
     float: left;
     background-image: url(../img/promo-img.jpg);
     background-position: right;
+}
+
+/*History*/
+
+.slider-history {}
+
+.content-history {
+    margin-top: 24px;
+}
+
+.menu-history {
+    clear: both;
+    text-align: center;
+    background-color: rgb(244, 244, 244);
+}
+
+
+.menu-history-table {}
+
+.menu-history-list {}
+
+.menu-history-list {
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1.8px;
+    text-align: center;
+    color: rgb(108, 108, 108);
+    list-style-type: none;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.menu-link-active-history {
+    font-weight: 700;
+    color: #212121;
+}
+
+.right-col-history {
+    width: 31%;
+    float: right;
+    display: inline-block;
+}
+
+.input-b {
+    margin-top: 26px;
+    width: 360px;
+    height: 48px;
+    border: solid 1px rgb(217, 222, 225);
+    background-color: rgb(255, 255, 255);
 }
