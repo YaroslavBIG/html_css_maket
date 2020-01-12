@@ -27,6 +27,8 @@ body {
     margin: 0 auto;
     min-height: 100%;
     position: relative;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 .padding-site {
@@ -177,7 +179,7 @@ body {
 }
 
 .content {
-    width: 1388px;
+    width: 100%;
 }
 
 .menu-cont {
@@ -260,15 +262,14 @@ a.menu-link-new.link-active:active {
 }
 
 .product {
-    width: 1388px;
     position: relative;
 }
 
 .tovary {
-    position: absolute;
+   /* position: absolute;
     width: 1388px;
+    clear: both;*/
     text-align: center;
-    clear: both;
 }
 
 .menu-product {
@@ -306,7 +307,8 @@ a.menu-link-new.link-active:active {
 }
 
 .promo {
-    margin-right: 98px;
+    
+    /*margin-right: 98px;*/
     display: inline-block;
     margin-top: 450px
 }
@@ -360,7 +362,6 @@ a.menu-link-new.link-active:active {
 }
 
 .tovary2 {
-    width: 1388px;
     text-align: center;
 }
 
@@ -392,7 +393,7 @@ a.menu-link-new.link-active:active {
 }
 
 .sl3 {
-    width: 100%;
+    /*width: 100%;*/
     height: 570px;
     margin-top: 120px;
     padding-left: 98px;
@@ -503,6 +504,7 @@ a.menu-link-new.link-active:active {
     background-image: url(../img/back-img.jpg);
     height: 400px;
     margin-top: 200px;
+    margin-bottom: -77px;
     position: relative;
 }
 
@@ -555,7 +557,6 @@ a.menu-link-new.link-active:active {
 
 .footerblock {
     margin-top: 120px;
-    padding-left: 98px;
     height: 220px;
     width: 100%;
     position: absolute;
@@ -566,7 +567,7 @@ a.menu-link-new.link-active:active {
 
 .footermenu {
     background-color: #f7f7f7;
-    
+
 }
 
 .copyr {
@@ -584,7 +585,7 @@ a.menu-link-new.link-active:active {
 
 
 .socialimg {
-   position: absolute;
+    position: absolute;
     left: 523px;
     top: -1px;
 }
@@ -621,9 +622,9 @@ a.menu-link-new.link-active:active {
 }
 
 .footermenu {
-    width: 91%;
     height: 292px;
-    
+    padding-left: 98px;
+    padding-right: 98px;
 }
 
 .h-footer-menu {
@@ -748,7 +749,7 @@ a.menu-link-new.link-active:active {
 .suscribe form {
     position: relative;
     width: 300px;
-    
+
 }
 
 input,
@@ -782,7 +783,7 @@ button:before {
 }
 
 .footer {
-    margin-top: 110px;
+    margin-top: 89px;
     position: relative;
 }
 
@@ -804,7 +805,7 @@ button:before {
 
 .clr {
     width: 100%;
-    height: 291px;
+    height: 292px;
     clear: both;
 }
 
@@ -916,7 +917,6 @@ button:before {
 
 .content-catalog {
     margin: 30px 98px;
-    margin-left: 3%;
 }
 
 .center-col-products {
@@ -963,10 +963,12 @@ button:before {
 
 .promo2 {
     display: inline-block;
+    width: 100%;
+    margin-bottom: -6%;
 }
 
 .promo2 .promo-left2 {
-    width: 650px;
+    width: 683px;
     height: 650px;
     float: left;
     background-image: url(../img/promo-img1.jpg);
@@ -974,7 +976,7 @@ button:before {
 }
 
 .promo2 .promo-right2 {
-    width: 650px;
+    width: 683px;
     height: 650px;
     float: left;
     background-image: url(../img/promo-img.jpg);
