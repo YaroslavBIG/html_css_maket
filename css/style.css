@@ -1036,3 +1036,21 @@ button:before {
     border: solid 1px rgb(217, 222, 225);
     background-color: rgb(255, 255, 255);
 }
+
+.content-history-tovar {
+
+}
+
+.slider-left {
+    float: left;
+    width: 570px;
+}
+
+.slider-left-img {
+    width: 570px;
+}
+
+.slider-left-bottom {
+    width: 570px;
+    text-align: center;
+}
