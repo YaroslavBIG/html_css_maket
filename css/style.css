@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,400,700&display=swap&subset=cyrillic');
-
 * {
     margin: 0;
     padding: 0;
@@ -52,6 +51,10 @@ ul {
 
 .header {
     padding-top: 63px;
+}
+
+.logo {
+    padding-top: 1%;
 }
 
 .menu {
@@ -425,16 +428,6 @@ a.menu-link-new.link-active:active {
     padding-right: 98px;
 }
 
-.slider-hotdeal {
-    font-size: 18px;
-    font-weight: bold;
-    line-height: 48px;
-    letter-spacing: 1.8px;
-    text-align: left;
-    color: #e53935;
-    text-transform: uppercase;
-}
-
 .product3 {
     width: 50%;
     height: 100%;
@@ -571,7 +564,6 @@ a.menu-link-new.link-active:active {
 
 .footermenu {
     background-color: #f7f7f7;
-
 }
 
 .copyr {
@@ -580,13 +572,12 @@ a.menu-link-new.link-active:active {
     font-weight: bold;
     font-stretch: normal;
     font-style: normal;
-    line-height: 2.17;
+    padding-top: 10px;
     letter-spacing: 0.6px;
     text-align: left;
     color: rgb(108, 108, 108);
     text-transform: uppercase;
 }
-
 
 .socialimg {
     position: absolute;
@@ -610,7 +601,6 @@ a.menu-link-new.link-active:active {
     text-transform: uppercase;
 }
 
-
 .link {
     text-decoration: none;
     color: black;
@@ -626,9 +616,10 @@ a.menu-link-new.link-active:active {
 }
 
 .footermenu {
-    height: 292px;
     padding-left: 98px;
     padding-right: 98px;
+    padding-top: 120px;
+    padding-bottom: 30px;
 }
 
 .h-footer-menu {
@@ -640,6 +631,7 @@ a.menu-link-new.link-active:active {
     letter-spacing: 1.8px;
     text-align: left;
     color: rgb(108, 108, 108);
+    text-transform: uppercase;
 }
 
 .footermenu .left-col {
@@ -753,7 +745,6 @@ a.menu-link-new.link-active:active {
 .suscribe form {
     position: relative;
     width: 300px;
-
 }
 
 input,
@@ -793,7 +784,35 @@ button:before {
 
 .footermenu .copyr {}
 
-.footermenu .socialimg {}
+.footermenu .socialimg {
+    font-family: icomoon;
+    font-size: 28px;
+    line-height: 26px;
+    letter-spacing: 5.6px;
+    text-align: center;
+    color: #6c6c6c;
+}
+
+a.icon-facebook2 {
+    text-decoration: none;
+    color: rgb(108, 108, 108);
+}
+
+a.icon-twitter {
+    text-decoration: none;
+    color: rgb(108, 108, 108);
+}
+
+a.icon-google-plus3 {
+    text-decoration: none;
+    color: rgb(108, 108, 108);
+}
+
+a.icon-pinterest {
+    font-size: 32px;
+    text-decoration: none;
+    color: rgb(108, 108, 108);
+}
 
 .footermenu .soc {}
 
@@ -801,7 +820,9 @@ button:before {
 
 .footermenu .terms {}
 
-.footermenu .link {}
+.footermenu .link {
+    color: rgb(108, 108, 108);
+}
 
 .link-active:active {
     color: white;
@@ -809,7 +830,7 @@ button:before {
 
 .clr {
     width: 100%;
-    height: 292px;
+    height: 384px;
     clear: both;
 }
 
@@ -864,7 +885,6 @@ button:before {
     background-color: #ffffff;
     float: left;
     margin-right: 15px;
-
     box-sizing: border-box;
 }
 
@@ -919,6 +939,10 @@ button:before {
     box-sizing: border-box;
 }
 
+.menu-products {
+    margin: 71px auto;
+}
+
 .content-catalog {
     margin: 30px 98px;
 }
@@ -962,7 +986,7 @@ button:before {
 }
 
 .row.align-items-center.justify-content-center {
-    margin-bottom: 30px;
+    margin-bottom: 120px;
     display: flex;
 }
 
@@ -988,6 +1012,7 @@ button:before {
     background-position: right;
 }
 
+
 /*History*/
 
 .slider-history {}
@@ -1001,7 +1026,6 @@ button:before {
     text-align: center;
     background-color: rgb(244, 244, 244);
 }
-
 
 .menu-history-table {}
 
@@ -1037,8 +1061,10 @@ button:before {
     background-color: rgb(255, 255, 255);
 }
 
-.content-history-tovar {
+.content-history-tovar {}
 
+.slider-history-block {
+    margin: 42px auto;
 }
 
 .slider-left {
@@ -1053,4 +1079,88 @@ button:before {
 .slider-left-bottom {
     width: 570px;
     text-align: center;
+}
+
+.slider-right-history {
+    text-align: center;
+}
+
+.slider-right-history .slider-h2-history {
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    color: #212121;
+    padding-top: 40px;
+}
+
+.slider-right-history .slider-hotdeal-history {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 48px;
+    letter-spacing: 1.8px;
+    color: #e53935;
+    text-transform: uppercase;
+}
+
+.slider-right-history .slider-history-h1 {
+    font-family: Gotham;
+    font-size: 72px;
+    font-weight: 300;
+    line-height: 48px;
+    text-align: center;
+    color: #212121;
+    margin: 32px auto;
+}
+
+.slider-history-h1 .price {
+    font-family: Gotham;
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 48px;
+    text-align: center;
+    color: #212121;
+    margin: 32px auto;
+}
+
+.slider-right-history .button-history {
+    width: 510px;
+    height: 71px;
+    border-radius: 35px;
+    box-shadow: 0px 2px 4.9px 0.2px rgba(33, 33, 33, 0.35);
+    background-color: #f44336;
+    display: inline-flex;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 24px;
+    letter-spacing: 4.4px;
+    text-align: center;
+    color: #ffffff;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider-right-history .button-history:hover {
+    box-shadow: none;
+}
+
+.slider-right-history .button-history:active {
+    background-color: #212121;
+    color: white;
+}
+
+.slider-content-history {
+    font-family: Gotham;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    text-align: left;
+    color: #212121;
+    margin-top: 49px;
+}
+
+.price .text-style-1 {
+    font-size: 36px;
 }
