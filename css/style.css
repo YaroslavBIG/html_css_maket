@@ -375,20 +375,19 @@ a.menu-link-new.link-active:active {
 }
 
 .slider2 {
-    height: 700px;
     background-image: url(../img/slider2.jpg);
     position: relative;
-    margin-top: 125px
+    margin-top: 120px
 }
 
 .slider-text2 {
-    margin-top: 150px;
+    padding-top: 23%;
 }
 
 .padding-site2 {
-    padding-top: 120px;
     padding-left: 98px;
     padding-right: 98px;
+    height: 800px;
 }
 
 .slider-hotdeal {
@@ -501,7 +500,7 @@ a.menu-link-new.link-active:active {
 
 .slider-text4 {
     background-image: url(../img/back-img.jpg);
-    height: 400px;
+    height: 516px;
     margin-top: 120px;
     position: relative;
 }
@@ -856,7 +855,7 @@ a.icon-pinterest {
 
 .contact-content {
     min-height: 100%;
-    overflow: hidden;
+    margin-bottom: 120px;
 }
 
 .contacts {
@@ -943,8 +942,14 @@ a.icon-pinterest {
     margin: 71px auto;
 }
 
-.content-catalog {
-    margin: 30px 98px;
+.refresh {
+    text-align: center;
+    margin-bottom: 120px;
+    font-family: icomoon;
+    font-size: 42px;
+    letter-spacing: 4.2px;
+    text-align: center;
+    color: #212121;
 }
 
 .center-col-products {
@@ -1022,14 +1027,47 @@ a.icon-pinterest {
 }
 
 .menu-history {
-    clear: both;
+    display: grid;
     text-align: center;
     background-color: rgb(244, 244, 244);
 }
 
-.menu-history-table {}
+.menu-history-block {
+    display: table;
+}
+
+.menu-history-table {
+    vertical-align: middle;
+    height: 70px;
+    display: table-cell;
+    text-align: center;
+}
 
 .menu-history-list {}
+
+.menu-link-dop {
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1.8px;
+    text-align: left;
+    color: #6c6c6c;
+    padding: 10px 13px;
+}
+
+.menu-link-active-dop {
+    font-weight: 700;
+    color: #212121;
+    border-bottom: 3px solid #212121;
+}
+
+.menu-link-dop:hover {
+    color: #212121;
+    border-bottom: 3px solid #212121;
+}
+
+.menu-link-dop:active {
+    color: white;
+}
 
 .menu-history-list {
     font-size: 18px;
@@ -1040,6 +1078,32 @@ a.icon-pinterest {
     list-style-type: none;
     display: inline-block;
     text-transform: uppercase;
+}
+
+.explore-all-history {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 24px;
+    letter-spacing: 3.6px;
+    text-align: center;
+    color: #212121;
+    float: right;
+    text-decoration: none;
+    /* margin-top: 138px; */
+    /* margin-right: 119px; */
+    text-transform: uppercase;
+}
+
+.hover:hover {
+    color: #6c6c6c;
+}
+
+.content-catalog-history {
+    padding-bottom: 120px;
+}
+
+.menu-cont-history {
+    margin-top: 20%;
 }
 
 .menu-link-active-history {
